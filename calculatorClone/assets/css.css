@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    background-color: #29262c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #967c6d;
+    padding: 30px;
+    width: 420px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgba(148, 132, 132, 0.2);
+
+}
+
+.screen {
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 340px;
+    height: 40px;
+    font-weight: 700;
+    background-color: #382325;
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+    padding-right: 10px;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    /* flex-grow: 1; */
+    background-color: #967c6d;
+}
+
+.btn-row {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    background-color: #967c6d;
+    margin: 0;
+}
+
+.btn .button {
+    color: #ff6666;
+    margin: 10px;
+    padding: 0;
+    width: 70px;
+    height: 40px;
+    background-color: #fff;
+    font-style: bold;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px 0px rgba(148, 132, 132, 0.2);
+
+}
+
+.btn .button:hover {
+    opacity: 0.7;
+}
+
+.btn .btn-row.btn-row-end button {
+    color: #fff;
+    background-color: #72282f;
+
+}
+
+.hiddenbutton {
+    z-index: -2;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        width: 300px;
+        height: 400px;
+    }
+
+    .screen {
+        width: 260px;
+        height: 40px;
+    }
+
+    .btn {
+        width: 260px;
+    }
+
+    .btn-row {
+        width: 260px;
+    }
+
+    .btn-button {
+        width: 30px;
+  
+    }
+}

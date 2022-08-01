@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" type="text/css">
+    <title>Steam Clone</title>
+</head>
+
+<body>
+    <header>
+        <img id="header-img"
+            src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="">
+        <ul>
+            <li>
+                <a href="">STORE</a>
+                <ul class="sub-menu sub-menu-str">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Discovery</a></li>
+                    <li><a href="">List Wish List</a></li>
+                    <li><a href="">Point Shop</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Statitics</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">COMMUNITY</a>
+                <ul class="sub-menu sub-menu-com">
+                    <li><a href="">Welcome</a></li>
+                    <li><a href="">Discussions</a></li>
+                    <li><a href="">WorkShop</a></li>
+                    <li><a href="">Market</a></li>
+                    <li><a href="">Broadcarts</a></li>
+                </ul>
+            </li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SUPPORT</a></li>
+        </ul>
+        <ul class="header-menu-right">
+            <li><a href="">Install Steam <i class="fa-solid fa-down"></i></a></li>
+            <li><a href="">login</a></li>
+            <li><a href="">language <i class="fa-solid fa-sort-down"></i></a></li>
+        </ul>
+    </header>
+
+    <main>
+        <nav>
+            <img src="https://store.akamai.steamstatic.com/public/images//gift/steamcards_promo_02.png" alt="">
+            <div class="input">
+                <input type="text" placeholder="Search...">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <ul>
+                <li><a href="">ACTION</a></li>
+                <li><a href="">ADVENTURE</a></li>
+                <li><a href="">RPG</a></li>
+                <li><a href="">STRATEGY</a></li>
+                <li><a href="">GACHA</a></li>
+            </ul>
+        </nav>
+        <div class="content" id="content">
+            <!-- <div class="content-row" id="content-row">
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="content-row" id="content-row">
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="content-row" id="content-row">
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="content-row">
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-row">
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-row">
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="game-wrraper">
+                        <div class="cover">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg?t=1657292099"
+                                alt="">
+                            <div class="game-info">
+                                <p>War Thunder</p>
+                                <p>Free to Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <div class="img-list">
+                <img src="https://store.akamai.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+                <img src="https://store.akamai.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="">
+            </div>
+            <div class="footer-info">
+                <p>© 2022 Valve Corporation. All rights reserved. All trademarks are the property of their owners in the
+                    United States and other countries.</p>
+                <p>VAT included for all prices (where applicable).</p>
+            </div>
+            <div class="footer-contact">
+                <ul>
+                    <li><a href="">About Valve</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Steamworks</a></li>
+                    <li><a href="">Steam distribution</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Gift cards</a></li>
+                    <li><a href="">Steam</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js.js"></script>
+</body>
+
+</html>
